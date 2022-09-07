@@ -26,3 +26,7 @@ pip install apache_beam[gcp]
 pip install google-cloud-storage
 
 . /path/to/directory/bin/activate
+
+5. Installing packages in ghe:
+pip install -e git+https://github.com/Jeevak2100/python_apache_beam
+https://www.youtube.com/watch?v=c6IgzwFRf5I&ab_channel=PrettyPrinted
