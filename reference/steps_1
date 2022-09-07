@@ -1,7 +1,13 @@
-1. Adding virtual env: 
+1. Adding virtual env:
+a) virtual environment
 file-> settings->project:<> -> python Interpreter ->add interpreter -> virtual environment (new)
 https://www.youtube.com/watch?v=qcpLYKCNYNM&ab_channel=JorgosAndreadis
 (has pytest also)
+
+b) System interpreter: To have all the packages installed in your system
+(could see this from cmd prompt using: pip list command)
+file-> settings->project:<> -> python Interpreter ->add interpreter -> System interpreter (new)
+https://www.youtube.com/watch?v=d_viFr3w4g8&ab_channel=MohanKumartech
 
 2. Reference: 
 https://beam.apache.org/documentation/transforms/python/aggregation/cogroupbykey/
