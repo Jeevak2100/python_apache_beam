@@ -1,0 +1,9 @@
+Commands:
+
+gcloud commands:
+gsutil cat -h gs://cloud-samples-data/bigquery/sample-transactions/transactions.csv
+
+gcloud auth activate-service-account --key-file credentials.json
+gcloud config list
+gcloud config list
+gsutil ls gs://<bucketName> ==> see content of bucket

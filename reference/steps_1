@@ -1,0 +1,22 @@
+1. Adding virtual env: 
+file-> settings->project:<> -> python Interpreter ->add interpreter -> virtual environment (new)
+https://www.youtube.com/watch?v=qcpLYKCNYNM&ab_channel=JorgosAndreadis
+(has pytest also)
+
+2. Reference: 
+https://beam.apache.org/documentation/transforms/python/aggregation/cogroupbykey/
+https://beam.apache.org/get-started/quickstart-py/
+
+3. Activate virtual env and Installing packages
+python -m venv /path/to/directory
+C:\Users\jeeva\PycharmProjects\pythonProject\venv\Scripts\activate.bat
+
+4. Pypi.org: has the s/w package to install
+a) To install: file-> settings->project:<> -> python Interpreter -> + -> search the package and install. 
+
+b) or 
+pip install apache_beam
+pip install apache_beam[gcp]
+pip install google-cloud-storage
+
+. /path/to/directory/bin/activate
